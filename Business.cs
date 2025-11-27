@@ -39,17 +39,28 @@ public class Business
         return gebruikers;
     }
 
-    public List<string> PrintStudentInformatie(List<Student> studenten)
+    public List<string> GetGebruikerInformatie(List<Gebruiker> gebruikers)
     {
         List<string> result = new List<string>();
 
-        foreach (Student student in studenten)
+        foreach (Gebruiker gebruiker in gebruikers)
         {
-            result.Add(student.ToString());
+            result.Add(gebruiker.ToString());
+
+            if (gebruiker is Student)
+            {
+                Student student = (Student)gebruiker;
+                result.Add("Krijgt deze student een toelage? " + student.StudieToelage);
+            }
+
+            Docent docent = gebruiker as Docent;
+            if (docent != null)
+            {
+                result.Add("Heeft deze docent een mooie wagen? " + docent.HasBedrijfswagen);
+            }
+
         }
 
         return result;
     }
-
-
 }

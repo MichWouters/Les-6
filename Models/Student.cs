@@ -6,6 +6,8 @@ public class Student : Gebruiker
 
     public bool IsAfgestudeerd { get; set; }
 
+    public bool StudieToelage { get; set; }
+
     public Student(string achternaam, double punten)
     {
         Punten = punten;

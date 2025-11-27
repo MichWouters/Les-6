@@ -1,8 +1,8 @@
 ﻿Business business = new Business();
 
-List<Student> studenten = business.GenerateStudents();
+List<Gebruiker> gebruikers = business.GenerateStudents();
 
-foreach (string result in business.PrintStudentInformatie(studenten))
+foreach (string result in business.GetGebruikerInformatie(gebruikers))
 {
     Console.WriteLine(result);
 }

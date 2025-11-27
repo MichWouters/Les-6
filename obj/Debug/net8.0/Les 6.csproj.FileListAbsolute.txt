@@ -1,0 +1,15 @@
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.AssemblyInfoInputs.cache
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.AssemblyInfo.cs
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.csproj.CoreCompileInputs.cache
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.sourcelink.json
+C:\Dev\Les 6\bin\Debug\net8.0\Les 6.exe
+C:\Dev\Les 6\bin\Debug\net8.0\Les 6.deps.json
+C:\Dev\Les 6\bin\Debug\net8.0\Les 6.runtimeconfig.json
+C:\Dev\Les 6\bin\Debug\net8.0\Les 6.dll
+C:\Dev\Les 6\bin\Debug\net8.0\Les 6.pdb
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.dll
+C:\Dev\Les 6\obj\Debug\net8.0\refint\Les 6.dll
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.pdb
+C:\Dev\Les 6\obj\Debug\net8.0\Les 6.genruntimeconfig.cache
+C:\Dev\Les 6\obj\Debug\net8.0\ref\Les 6.dll
